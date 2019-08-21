@@ -1,3 +1,5 @@
+const isMain = document.querySelector("main #main1");
+
 let navStyleToggle = false;
 function toggleNavStyle() {
     const topNav = document.querySelector("header#top");
@@ -9,17 +11,17 @@ function toggleNavStyle() {
         topNav.style.display = "none";
         sideNav.style.display = "block";
         mainContent.style.padding = `0 0 0 ${sideNav.clientWidth}px`;
-        mainToggle.style.margin = `0 0 10px ${sideNav.clientWidth + 10}px`;
-        footer.style.padding = `50px 0 50px ${sideNav.clientWidth}px`;
+        mainToggle.style.margin = `${topNav.clientHeight + 10}px 0 0 ${sideNav.clientWidth + 10}px`;
+        footer.style.padding = `0 0 0 ${sideNav.clientWidth}px`;
     }
     else {
         topNav.style.display = "block";
         sideNav.style.display = "none";
         mainContent.style.padding = `${topNav.clientHeight}px 0 0 0`;
-        mainToggle.style.margin = `0 0 10px ${sideNav.clientWidth + 10}px`;
-        footer.style.padding = "50px 0";
+        mainToggle.style.margin = `${topNav.clientHeight + 10}px 0 0 ${sideNav.clientWidth + 10}px`;
+        footer.style.padding = "0";
     }
-    toggleNavMains()
+    if (isMain) toggleNavMains()
     navStyleToggle = !navStyleToggle;
 }
 
@@ -30,6 +32,7 @@ function toggleNavMains() {
     const main1Overlay = document.querySelector("main #main1 #gradient-overlay");
     const main2 = document.querySelector("main #main2");
     const main3 = document.querySelector("main #main3");
+    const main4 = document.querySelector("main #main4");
     if (navStyleToggle) {
         main1.style.height = "100vh";
         main1.style.lineHeight = "100vh";
@@ -37,6 +40,8 @@ function toggleNavMains() {
         main1Overlay.style.margin = "0";
         main2.style.height = "100vh";
         main3.style.height = "100vh";
+        main4.style.height = "100vh";
+        main4.style.lineHeight = "100vh";
     }
     else {
         main1.style.transition = "0s";
@@ -45,6 +50,8 @@ function toggleNavMains() {
         main1Overlay.style.margin = `${topNav.clientHeight}px 0 0 0`;
         main2.style.height = `${vh - topNav.clientHeight}px`;
         main3.style.height = `${vh - topNav.clientHeight}px`;
+        main4.style.height = `${vh - topNav.clientHeight}px`;
+        main4.style.lineHeight = `${vh - topNav.clientHeight}px`;
     }
 }
 
@@ -97,28 +104,31 @@ function alignNavStyle() {
     const mainToggle = document.querySelector("main input");
     if (sideNav) {
         mainContent.style.padding = `${topNav.clientHeight}px 0 0 ${sideNav.clientWidth}px`;
-        mainToggle.style.margin = `0 0 10px ${sideNav.clientWidth + 10}px`;
+        mainToggle.style.margin = `10px 0 0 ${sideNav.clientWidth + 10}px`;
     }
     else {
         mainContent.style.padding = `${topNav.clientHeight}px 0 0 ${smallSideNav.clientWidth}px`;
-        mainToggle.style.margin = `0 0 10px ${smallSideNav.clientWidth + 10}px`;
+        mainToggle.style.margin = `10px 0 0 ${smallSideNav.clientWidth + 10}px`;
     }
 }
 document.addEventListener("DOMContentLoaded", alignNavStyle);
 
 const mainToggle = document.querySelector("main input");
 function toggleMain() {
-    const mainContent = document.querySelectorAll("main section");
+    const mainContent = document.querySelectorAll("main > section");
     for (let i = 0; i < mainContent.length; i++) {
         if (mainToggle.value == i) {
             mainContent[i].style.display = "block";
         }
         else mainContent[i].style.display = "none";
     }
-    main1();
-    main2();
-    main3();
-    main4();
+    if (isMain) {
+        main1();
+        main2();
+        main3();
+        main4(); 
+    }
+
 }
 mainToggle.addEventListener("change", toggleMain);
 
@@ -137,7 +147,9 @@ function main1() {
 
     }
 }
-document.addEventListener("DOMContentLoaded", main1);
+if (isMain) {
+    document.addEventListener("DOMContentLoaded", main1);
+}
 
 function main2() {
     const mainOverlay = document.querySelector("main #main2 #gradient-overlay");
@@ -166,7 +178,7 @@ function main3() {
                 headerWrap.style.top = "0";
             }
             headerToggle = !headerToggle;
-        }, 3000);
+        }, 3750);
     }
     else {
         backgroundImage.style.transform = "scale(1)";
@@ -175,10 +187,58 @@ function main3() {
 }
 
 function main4() {
-    const overaly = document.querySelector("main #main4 #gradient-overlay");
+    const overlay = document.querySelector("main #main4 #gradient-overlay");
     if (mainToggle.value == 3) {
         setTimeout(function() {
-        overaly.style.opacity = "0";
+        overlay.style.opacity = "0";
         },500);
     }
+    else {
+        overlay.style.opacity = "1";
+    }
+}
+
+let footerToggle = 1;
+function toggleFooter() {
+    const footerContent = document.querySelectorAll("footer section");
+    for (let i = 0; i < footerContent.length; i++) {
+        if (footerToggle == i) {
+            footerContent[i].style.display = "block";
+        }
+        else footerContent[i].style.display = "none";
+    }
+    if (footerToggle == footerContent.length - 1) {
+        footerToggle = 0;
+    }
+    else footerToggle++;
+}
+document.querySelector("footer").addEventListener("click", toggleFooter);
+
+function about2Event() {
+    const toggle = document.querySelectorAll("main #about2 #header a");
+    const about = document.querySelectorAll("main #about2 > section");
+    const photos = document.querySelectorAll("main #about2 #photos img");
+    for (let x = 0; x < toggle.length; x++) {
+        toggle[x].id = x;
+        toggle[x].addEventListener("click", toggleMain = (x) => {
+            x = Number(x.currentTarget.id);
+            for (let i = 0; i < about.length; i++) {
+                if (x == i) {
+                    about[i].style.display = "block";
+                    photos[i].style.display = "block";
+                }
+                else {
+                    about[i].style.display = "none";
+                    photos[i].style.display = "none";
+                }
+            }
+        });
+    }
+    //////////////FIX THIS
+    let e = { currentTarget: {}};
+    e.currentTarget.id = 0;
+    toggleMain(e);
+}
+if (document.querySelectorAll("main #about1")) {
+    document.addEventListener("DOMContentLoaded", about2Event);
 }
