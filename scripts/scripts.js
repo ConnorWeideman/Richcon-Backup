@@ -239,6 +239,6 @@ function about2Event() {
     e.currentTarget.id = 0;
     toggleMain(e);
 }
-if (document.querySelectorAll("main #about1")) {
-    document.addEventListener("DOMContentLoaded", about2Event);
+if (document.querySelector("main #about1")) {
+    about2Event();
 }
