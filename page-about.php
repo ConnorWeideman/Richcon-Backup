@@ -1,6 +1,7 @@
 <?php get_header()?>
 
 <main>
+    <input type="range" max="3" min="0" value="0">
     <section id="about1">
         <h1 class="title">ABOUT</h1>
         <section id="richcon">
@@ -213,7 +214,6 @@
             </section>
         </section>
     </section>
-    <input type="range" max="3" min="0" value="0">
 </main>
 
 <?php get_footer()?>
