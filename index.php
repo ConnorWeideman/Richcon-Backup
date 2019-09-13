@@ -1,31 +1,31 @@
-<?php get_header()?>
+<?php get_header() ?>
 
 <main>
-    <section id="main1">
-        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/RichCon-logo.png" alt="logo">
-        <div id="gradient-overlay"></div>
+    <input type="range" min="0" max="3" value="0">
+    <section id="general1">
+        <h1><?php the_title() ?></h1>
+        <section class="content">
+            <?php echo get_post_field('post_content', $post->ID) ?>
+        </section>
     </section>
-    <section id="main2">
-        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg">
-        <div id="gradient-overlay"></div>
-        <div id="logo">
-            <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/RichCon-logo.png" alt="logo">        
-        </div>
+    <section id="general2">
+        <h1><?php the_title() ?></h1>
+        <section class="content">
+            <?php echo get_post_field('post_content', $post->ID) ?>
+        </section>
     </section>
-    <section id="main3">
-        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg">
-        <div id="gradient-overlay"></div>
-        <div id="header">
-            <div class="wrap">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/RichCon-logo.png" alt="logo">
-                <h1>PRODUCERS, ACTORS, DIRECTORS</h1>     
-            </div>
-        </div>
+    <section id="general3">
+        <section class="content">
+            <h1><?php the_title() ?></h1>
+            <?php echo get_post_field('post_content', $post->ID) ?>
+        </section>
     </section>
-    <section id="main4">
-        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/RichCon-logo.png" alt="logo">
-        <div id="gradient-overlay"></div>
+    <section id="general4">
+        <section class="content">
+            <h1><?php the_title() ?></h1>
+            <?php echo get_post_field('post_content', $post->ID) ?>
+        </section>
     </section>
-    <input type="range" max="3" min="0" value="0">
 </main>
-<?php get_footer()?>
+
+<?php get_footer() ?>
