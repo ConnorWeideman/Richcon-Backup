@@ -14,37 +14,37 @@
             </nav>
             <section id="films">
                 <article class="film produced">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Produced</p>
                 </article>
                 <article class="film acted">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Acted</p>
                 </article>
                 <article class="film written">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Written</p>
                 </article>
                 <article class="film directed">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Directed</p>
                 </article>
                 <article class="film produced acted">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Produced, Acted</p>
                 </article>
                 <article class="film produced directed">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <h2>Vat Jou Goed En Trek</h2>
                     <p>Produced, Directed</p>
@@ -66,7 +66,7 @@
         <section id="films">
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -76,7 +76,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -86,7 +86,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -96,7 +96,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -106,7 +106,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -116,7 +116,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -126,7 +126,7 @@
             </article>
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -136,7 +136,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -146,7 +146,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -156,7 +156,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -166,7 +166,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -176,7 +176,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -186,7 +186,7 @@
             </article>
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -196,7 +196,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -206,7 +206,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -216,7 +216,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -226,7 +226,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -236,7 +236,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -257,7 +257,7 @@
         <section class="films">
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -267,7 +267,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -277,7 +277,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -287,7 +287,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -297,7 +297,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -307,7 +307,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -317,7 +317,7 @@
             </article>
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -327,7 +327,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -337,7 +337,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -347,7 +347,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -357,7 +357,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -367,7 +367,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -377,7 +377,7 @@
             </article>
             <article class="film produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -387,7 +387,7 @@
             </article>
             <article class="film acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -397,7 +397,7 @@
             </article>
             <article class="film written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -407,7 +407,7 @@
             </article>
             <article class="film directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -417,7 +417,7 @@
             </article>
             <article class="film produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -427,7 +427,7 @@
             </article>
             <article class="film produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                         alt="Vat Jou Goed En Trek">
                     <div class="overlay">
                         <h2>Vat Jou Goed En Trek</h2>
@@ -439,41 +439,57 @@
         <section id="produced">
             <h2 class="title">Produced</h2>
             <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id augue ut augue hendrerit
-        fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor quam
-        ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo, eget
-        sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum, eget
-        gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a, cursus
-        vitae mi.</p>
+                fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor
+                quam
+                ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo,
+                eget
+                sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum,
+                eget
+                gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a,
+                cursus
+                vitae mi.</p>
             <div class="films"></div>
         </section>
         <section id="directed">
             <h2 class="title">Directed</h2>
             <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id augue ut augue hendrerit
-        fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor quam
-        ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo, eget
-        sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum, eget
-        gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a, cursus
-        vitae mi.</p>
+                fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor
+                quam
+                ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo,
+                eget
+                sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum,
+                eget
+                gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a,
+                cursus
+                vitae mi.</p>
             <div class="films"></div>
         </section>
         <section id="acted">
             <h2 class="title">Acted</h2>
             <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id augue ut augue hendrerit
-        fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor quam
-        ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo, eget
-        sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum, eget
-        gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a, cursus
-        vitae mi.</p>
+                fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor
+                quam
+                ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo,
+                eget
+                sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum,
+                eget
+                gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a,
+                cursus
+                vitae mi.</p>
             <div class="films"></div>
         </section>
         <section id="written">
             <h2 class="title">Written</h2>
             <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id augue ut augue hendrerit
-        fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor quam
-        ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo, eget
-        sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum, eget
-        gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a, cursus
-        vitae mi.</p>
+                fringilla. Aliquam ut diam et libero dignissim bibendum vitae eu erat. Nulla vitae erat aliquet, auctor
+                quam
+                ac, fringilla augue. In lobortis condimentum ipsum, ac varius arcu mollis in. Vivamus id aliquam leo,
+                eget
+                sagittis risus. Morbi id dignissim purus. Suspendisse eu condimentum velit. Nam tristique risus ipsum,
+                eget
+                gravida turpis imperdiet non. Donec in sodales velit. Sed libero tortor, condimentum in fringilla a,
+                cursus
+                vitae mi.</p>
             <div class="films"></div>
         </section>
     </section>
@@ -491,7 +507,7 @@
         </div>
         <section id="films">
             <article class="film produced">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -499,7 +515,7 @@
                 </div>
             </article>
             <article class="film written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -507,7 +523,7 @@
                 </div>
             </article>
             <article class="film acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -515,7 +531,7 @@
                 </div>
             </article>
             <article class="film directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -523,7 +539,7 @@
                 </div>
             </article>
             <article class="film produced written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -531,7 +547,7 @@
                 </div>
             </article>
             <article class="film produced directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -539,7 +555,7 @@
                 </div>
             </article>
             <article class="film written acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -547,7 +563,7 @@
                 </div>
             </article>
             <article class="film directed acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -555,7 +571,7 @@
                 </div>
             </article>
             <article class="film produced">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -563,7 +579,7 @@
                 </div>
             </article>
             <article class="film produced written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -571,7 +587,7 @@
                 </div>
             </article>
             <article class="film written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -579,7 +595,7 @@
                 </div>
             </article>
             <article class="film acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -587,7 +603,7 @@
                 </div>
             </article>
             <article class="film directed acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -595,7 +611,7 @@
                 </div>
             </article>
             <article class="film directed acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -603,7 +619,7 @@
                 </div>
             </article>
             <article class="film written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>
@@ -611,7 +627,7 @@
                 </div>
             </article>
             <article class="film written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/TV-Film-Vat-Jou-Goed.jpg"
                     alt="Vat Jou Goed En Trek">
                 <div class="overlay">
                     <h2>Vat Jou Goed En Trek</h2>

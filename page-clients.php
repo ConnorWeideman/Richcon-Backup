@@ -15,7 +15,7 @@
         <section id="clients">
             <article class="client produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Produced</p>
@@ -24,7 +24,7 @@
             </article>
             <article class="client written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Written</p>
@@ -33,7 +33,7 @@
             </article>
             <article class="client directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Directed</p>
@@ -42,7 +42,7 @@
             </article>
             <article class="client acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Acted</p>
@@ -51,7 +51,7 @@
             </article>
             <article class="client produced written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Produced, Written</p>
@@ -60,7 +60,7 @@
             </article>
             <article class="client produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Produced, Directed</p>
@@ -69,7 +69,7 @@
             </article>
             <article class="client acted directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Acted, Directed</p>
@@ -78,7 +78,7 @@
             </article>
             <article class="client acted written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="info">
                         <h2>kykNet</h2>
                         <p>- Acted, Written</p>
@@ -91,16 +91,26 @@
     <section id="clients2">
         <nav id="toggler">
             <h1>CLIENTS</h1>
-            <a class="toggle"><input type="checkbox" id="ALL" checked><label for="ALL">ALL</label><div class="check"></div></a>
-            <a class="toggle"><input type="checkbox" id="DIRECTED"><label for="DIRECTED">DIRECTED</label><div class="check"></div></a>
-            <a class="toggle"><input type="checkbox" id="PRODUCED"><label for="PRODUCED">PRODUCED</label><div class="check"></div></a>
-            <a class="toggle"><input type="checkbox" id="ACTED"><label for="ACTED">ACTED</label><div class="check"></div></a>
-            <a class="toggle"><input type="checkbox" id="WRITTEN"><label for="WRITTEN">WRITTEN</label><div class="check"></div></a>
+            <a class="toggle"><input type="checkbox" id="ALL" checked><label for="ALL">ALL</label>
+                <div class="check"></div>
+            </a>
+            <a class="toggle"><input type="checkbox" id="DIRECTED"><label for="DIRECTED">DIRECTED</label>
+                <div class="check"></div>
+            </a>
+            <a class="toggle"><input type="checkbox" id="PRODUCED"><label for="PRODUCED">PRODUCED</label>
+                <div class="check"></div>
+            </a>
+            <a class="toggle"><input type="checkbox" id="ACTED"><label for="ACTED">ACTED</label>
+                <div class="check"></div>
+            </a>
+            <a class="toggle"><input type="checkbox" id="WRITTEN"><label for="WRITTEN">WRITTEN</label>
+                <div class="check"></div>
+            </a>
         </nav>
         <section id="clients">
             <article class="client produced">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Produced</p>
@@ -109,7 +119,7 @@
             </article>
             <article class="client directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Directed</p>
@@ -118,7 +128,7 @@
             </article>
             <article class="client acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Acted</p>
@@ -127,7 +137,7 @@
             </article>
             <article class="client written">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Written</p>
@@ -136,7 +146,7 @@
             </article>
             <article class="client produced directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Produced, Directed</p>
@@ -145,7 +155,7 @@
             </article>
             <article class="client produced acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Produced, Acted</p>
@@ -154,7 +164,7 @@
             </article>
             <article class="client written directed">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Written, Directed</p>
@@ -163,7 +173,7 @@
             </article>
             <article class="client written acted">
                 <div class="wrap">
-                    <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                     <div class="overlay">
                         <h2>kykNet</h2>
                         <p>Written, Acted</p>
@@ -178,84 +188,84 @@
         <h2 class="filter">ALL</h2>
         <section id="all">
             <article class="client produced">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced</p>
                 </div>
             </article>
             <article class="client directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Directed</p>
                 </div>
             </article>
             <article class="client acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Acted</p>
                 </div>
             </article>
             <article class="client written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written</p>
                 </div>
             </article>
             <article class="client produced directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced, Directed</p>
                 </div>
             </article>
             <article class="client produced acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced, Acted</p>
                 </div>
             </article>
             <article class="client written directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written, Directed</p>
                 </div>
             </article>
             <article class="client written acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written, Acted</p>
                 </div>
             </article>
             <article class="client produced">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced</p>
                 </div>
             </article>
             <article class="client directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Directed</p>
                 </div>
             </article>
             <article class="client acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Acted</p>
                 </div>
             </article>
             <article class="client written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written</p>
@@ -286,56 +296,56 @@
         </div>
         <section id="clients">
             <article class="client produced">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced</p>
                 </div>
             </article>
             <article class="client directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Directed</p>
                 </div>
             </article>
             <article class="client acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Acted</p>
                 </div>
             </article>
             <article class="client written">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written</p>
                 </div>
             </article>
             <article class="client produced directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced, Directed</p>
                 </div>
             </article>
             <article class="client produced acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Produced, Acted</p>
                 </div>
             </article>
             <article class="client written directed">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written, Directed</p>
                 </div>
             </article>
             <article class="client written acted">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/kyknet.jpg" alt="Client">
                 <div class="overlay">
                     <h2>kykNet</h2>
                     <p>Written, Acted</p>

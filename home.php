@@ -65,31 +65,31 @@
                 <h2 class="title">Instagram:</h2>
                 <div id="posts">
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/henck1.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/henck1.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/henck2.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/henck2.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/Richard2.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/Richard2.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard1.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard1.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/Richcon1.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/Richcon1.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/Richcon.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/Richcon.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck-Richard-Pose.jpg">
                     </div>
                 </div>
             </section>
@@ -188,22 +188,22 @@
                 <h2 class="title">Instagram:</h2>
                 <div id="posts">
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/henck1.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/henck1.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/henck2.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/henck2.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/09/Richard2.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/09/Richard2.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard.jpg">
                     </div>
                     <div class="post">
-                        <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard1.jpg">
+                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard1.jpg">
                     </div>
                 </div>
             </section>

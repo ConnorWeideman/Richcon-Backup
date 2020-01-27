@@ -1,9 +1,11 @@
 <footer>
     <section id="footer1">
-        <p>© Copyright - Richcon. All Rights Reserved. Website By <a href="http://www.cmfreelancing.co.za">CM Freelancing.</a></p>
+        <p>© Copyright - Richcon. All Rights Reserved. Website By <a href="http://www.cmfreelancing.co.za">CM
+                Freelancing.</a><span id="red">(Click footer)</span></p>
     </section>
     <section id="footer2">
-        <p>© Copyright - Richcon. All Rights Reserved. Website By <a href="http://www.cmfreelancing.co.za">CM Freelancing.</a></p>
+        <p>© Copyright - Richcon. All Rights Reserved. Website By <a href="http://www.cmfreelancing.co.za">CM
+                Freelancing.</a></p>
         <div class="social-icons">
             <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
             <a href="http://www.instagram.co.za"><i class="fab fa-instagram"></i></a>
@@ -13,11 +15,13 @@
     <section id="footer3">
         <div class="wrap">
             <div class="copyright">
-                <p>© Copyright - Richcon.<br>All Rights Reserved.<br>Website By <a href="http://www.cmfreelancing.co.za">CM Freelancing.</a></p>
+                <p>© Copyright - Richcon.<br>All Rights Reserved.<br>Website By <a
+                        href="http://www.cmfreelancing.co.za">CM Freelancing.</a></p>
             </div>
             <div class="about">
                 <h1>Who are we?</h1>
-                <p>We are film producers, directors and actors based in South Africa. Managed my Richard Opperman and Henck Conrey.</p>
+                <p>We are film producers, directors and actors based in South Africa. Managed by Richard Opperman and
+                    Henck Conrey.</p>
                 <a href="/about">Read More...</a>
             </div>
             <div class="contact">

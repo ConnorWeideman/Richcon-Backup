@@ -1,0 +1,317 @@
+main #contact1 {
+    display: block;
+    min-height: 100vh;
+    background-image: linear-gradient(#000, #333);
+}
+main #contact1 .title {
+    text-align: center;
+    color: #FFF;
+    padding-top: 50px;
+}
+main #contact1 #contacts {
+    width: 50%;
+    float: left;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+    color: #FFF;
+}
+main #contact1 h2 {
+    text-shadow: 2px 2px #000;
+}
+main #contact1 #contacts a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 30px;
+    width: max-content;
+}
+main #contact1 #contacts a:hover {
+    color: #BBB;
+}
+main #contact1 #form {
+    padding: 5vh 5vw 0 0;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    color: #FFF;
+}
+main #contact1 #form form *:not([type="submit"]) {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px inset #BBB;
+}
+main #contact1 #form form *:not([type="submit"]):hover {
+    background-color: #DDD;
+}
+main #contact1 #form form *:not([type="submit"]):focus {
+    background-color: #BBB;
+    outline: 3px solid #444;
+}
+main #contact1 #form form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 20vh;
+}
+main #contact1 #form form input[type="submit"] {
+    padding: 10px;
+    border: 2px outset #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FFF;
+    outline: none;
+}
+main #contact1 #form form input[type="submit"]:hover {
+    background-color: #DDD;
+}
+main #contact1 #form form input[type="submit"]:active {
+    outline: none;
+    background-color: #BBB;
+    border: 2px inset #AAA;
+}
+main #contact2 {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 10vh 5vw;
+    box-sizing: border-box;
+    background-image: linear-gradient(#000, #333);
+}
+main #contact2 #header {
+    position: fixed;
+    height: 50%;
+    top: 25%;
+    width: 20vw;
+    left: 20vw;
+    z-index: 1;
+    color: #FFF;
+    text-shadow: 2px 2px #000;
+}
+main #contact2 #header h1 {
+    padding: 10px 0;
+}
+main #contact2 #header a {
+    display: block;
+    text-decoration: none;
+    line-height: 5vh;
+    color: #FFF;
+    cursor: pointer;
+    width: max-content;
+}
+main #contact2 #header a:hover {
+    color: #BBB;
+}
+main #contact2 #contacts > section {
+    max-width: 50vw;
+    position: relative;
+    float: right;
+    padding: 5vh 5vw;
+    background-image: radial-gradient(#333, #000);
+    box-shadow: 0 0 10px 10px #000 inset;
+    color: #FFF;
+    z-index: 1;
+    box-sizing: border-box;
+    display: none;
+}
+main #contact2 #contacts .show {
+    display: block;
+}
+main #contact2 #contacts > section div {
+    width: 100%;
+}
+main #contact2 #contacts > section a{
+    text-align: right;
+    width: 80%;
+    display: inline-block;
+    line-height: 10vh;
+}
+main #contact2 #contacts > section div svg {
+    font-size: 5vh;
+    text-align: left;
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    top: 2.5vh;
+    vertical-align: top;
+}
+main #contact2 #contacts #comment form *:not([type="submit"]) {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main #contact2 #contacts #comment form label {
+    padding: 20px 0 !important;
+}
+main #contact2 #contacts #comment form textarea {
+    min-height: 20vh;
+}
+main #contact2 #contacts #comment form input[type="submit"] {
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+main #contact2 #contacts #comment form input[type="submit"]:active {
+    background-image: linear-gradient(#555, #BBB);
+    outline: none;
+}
+main #contact3 {
+    display: none;
+    min-height: 100vh;
+    color: #FFF;
+    background-image: linear-gradient(#000, #333);
+}
+main #contact3 h1 {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+main #contact3 section .title {
+    text-align: left;
+    padding: 50px 10%;;
+    text-shadow: 2px 2px #000;
+}
+main #contact3 section .contacts {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+    box-shadow: 0 0 8px 2px #000;
+}
+main #contact3 section .contacts div {
+    flex: 33%;
+    vertical-align: middle;
+    border-left: 1px solid #FFF;
+    background-color: #222;
+    line-height: 20vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+main #contact3 section .contacts div:nth-child(3) {
+    padding: 6vh;
+    line-height: unset;
+}
+main #contact3 section .contacts div:last-child {
+    border-right: 1px solid #FFF;
+}
+main #contact3 #comment {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+main #contact3 #comment h2 {
+    padding: 50px 0 20px 0;
+    text-shadow: 2px 2px #000;
+}
+main #contact3 #comment form *:not([type="submit"]) {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    background-image: radial-gradient(#FFF, #DDD);
+}
+main #contact3 #comment form *:not([type="submit"]):focus {
+    background-image: radial-gradient(#DDD, #BBB);
+}
+main #contact3 #comment form label {
+    padding: 20px 0 !important;
+    background: none!important;
+}
+main #contact3 #comment form textarea {
+    min-height: 20vh;
+    border: 2px inset #FFF;
+}
+main #contact3 #comment form input[type="submit"] {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+main #contact3 #comment form input[type="submit"]:active {
+    background-image: linear-gradient(#555, #BBB);
+    outline: none;
+}
+main #contact4 {
+    display: none;
+    min-height: 100vh;
+    color: #FFF;
+    background-image: linear-gradient(#000, #333);
+}
+main #contact4 h1 {
+    text-align: center;
+    padding: 50px;
+}
+main #contact4 #contacts {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+main #contact4 #contacts .contact {
+    flex: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #FFF;
+}
+main #contact4 #contacts .contact:last-child {
+    border-right: none;
+}
+main #contact4 #contacts .contact h2 {
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+main #contact4 #contacts .contact .left {
+    text-align: left;
+    width: 30%;
+    float: left;
+    font-weight: bolder;
+    line-height: 5vh;
+}
+main #contact4 #contacts .contact .right {
+    text-align: right;
+    line-height: 5vh;
+}
+main #contact4 #comment {
+    width: 80%;
+    margin: auto;
+    padding: 0 0 50px;
+}
+main #contact4 #comment h2 {
+    padding: 20px 0 20px 0;
+    text-shadow: 2px 2px #000;
+}
+main #contact4 #comment form *:not([type="submit"]) {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    background-image: radial-gradient(#FFF, #DDD);
+}
+main #contact4 #comment form *:not([type="submit"]):focus {
+    background-image: radial-gradient(#DDD, #BBB);
+}
+main #contact4 #comment form label {
+    padding: 20px 0 !important;
+    background: none!important;
+}
+main #contact4 #comment form textarea {
+    min-height: 20vh;
+    border: 2px inset #FFF;
+}
+main #contact4 #comment form input[type="submit"] {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+main #contact4 #comment form input[type="submit"]:active {
+    background-image: linear-gradient(#555, #BBB);
+    outline: none;
+}

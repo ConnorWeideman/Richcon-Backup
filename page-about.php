@@ -6,8 +6,7 @@
         <h1 class="title">ABOUT</h1>
         <section id="richcon">
             <div id="photo">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg"
-                    alt="Richcon">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
             </div>
             <h2>Richcon</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pellentesque nunc. Orci varius natoque
@@ -26,7 +25,7 @@
         </section>
         <section id="henck">
             <div id="photo">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
             </div>
             <h2>Henck Conrey</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pellentesque nunc. Orci varius natoque
@@ -38,7 +37,7 @@
         </section>
         <section id="richard">
             <div id="photo">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
             </div>
             <h2>Richard Opperman</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pellentesque nunc. Orci varius natoque
@@ -92,9 +91,9 @@
                 mollis.</p>
         </section>
         <div id="photos">
-            <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
-            <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
-            <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
         </div>
     </section>
 
@@ -163,7 +162,7 @@
 
     <section id="about4">
         <header>
-            <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
             <h1>ABOUT RICHCON</h1>
         </header>
         <section id="about">
@@ -189,7 +188,7 @@
                     tortor. Etiam scelerisque consectetur augue at volutpat.</p>
             </section>
             <section id="henck">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck.jpg" alt="Henck">
                 <h2>Henck Conway</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pellentesque nunc. Orci varius
                     natoque
@@ -201,7 +200,7 @@
                     mollis.</p>
             </section>
             <section id="richard">
-                <img src="http://localhost/test/wordpress/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
+                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Richard1.jpg" alt="Richard">
                 <h2>Richard Opperman</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pellentesque nunc. Orci varius
                     natoque
