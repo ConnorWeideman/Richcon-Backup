@@ -1,308 +1,36 @@
-main #clients1 {
-    display: block;
-    background-image: linear-gradient(#000, #222);
+main #clients {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 10%;
     min-height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(#000, #222);
 }
-main #clients1 .title {
-    text-align: center;
+main #clients #client-list {
+    width: 50%;
+    margin-left: 50%;
     color: #FFF;
-    padding: 50px;
-}
-main #clients1 #toggler {
-    width: 100%;
-    display: flex;
-    padding: 10px;
-    box-sizing: border-box;
-}
-main #clients1 #toggler .toggle {
-    flex: 20%;
-    background-image: radial-gradient(#FFF, #BBB);
-    box-shadow: 0 0 5px 5px #999 inset;
-    color: #000;
-    border: 1px solid #000;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-main #clients1 #toggler .toggle:hover {
-    background-image: radial-gradient(#DDD, #999);
-}
-main #clients1 #clients {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-main #clients1 #clients .client {
-    flex: 20%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    height: auto;
-    display: none;
-}
-main #clients1 #clients .show {
-    display: block!important;
-}
-main #clients1 #clients .client .wrap {
-    width: 100%;
+    align-self: center;
     position: relative;
+}
+main #clients #client-list #img {
+    width: 100%;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    position: absolute;
+    right: 100%;
     top: 0;
-    left: 0;
-    box-shadow: 0 0 5px 5px #050505;
-    background-color: #000;
 }
-main #clients1 #clients .client .wrap img {
-    position: relative;
+main #clients #client-list #img img {
+    width: 100%;
     height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
     object-fit: contain;
 }
-main #clients1 #clients .client .wrap .info {
-    position: relative;
-    width: 100%;
-    background-color: #000;
-    color: #FFF;
-    box-sizing: border-box;
-    padding: 10px;
-}
-main #clients1 #clients .client .wrap h2 {
-    display: inline-block;
+main #clients #client-list ul {
+    border-left: 2px solid #FFF;
     margin: 0;
-    padding-right: 10px;
 }
-main #clients1 #clients .client .wrap p {
-    display: inline-block;
-    opacity: 0;
-    margin: 0;
+main #clients #client-list ul li {
+    list-style: none;
     padding: 5px 0;
-    transition: 0.5s;
-}
-main #clients1 #clients .client:hover .wrap p {
-    opacity: 1;
-}
-main #clients2 {
-    display: none;
-    min-height: 100vh;
-    background-image: linear-gradient(#000, #333);
-}
-main #clients2 #toggler {
-    position: fixed;
-    height: 50%;
-    top: 25%;
-    width: 20vw;
-    left: 20vw;
-    z-index: 1;
-    color: #FFF;
-    text-shadow: 2px 2px #000;
-}
-main #clients2 #toggler .toggle {
-    display: block;
-    height: 30px;
-    position: relative;
-    padding: 5px;
-    box-sizing: border-box;
-    left: -40px;
-}
-main #clients2 #toggler .toggle input {
-    width: 20px;
-    vertical-align: middle;
-    height: 20px;
-    position: relative;
-    margin: 3px 8px;
-    cursor: pointer;
-}
-main #clients2 #toggler .toggle label {
-    line-height: 20px;
-    vertical-align: middle;
-}
-main #clients2 #toggler .toggle input:checked ~ .check {
-    display: block;
-}
-main #clients2 #toggler .toggle .check {
-    height: 18px;
-    width: 18px;
-    background-color: #000;
-    position: absolute;
-    left: 14px;
-    top: 9px;
-    display: none;
-    pointer-events: none;
-}
-main #clients2 #clients {
-    width: 50vw;
-    left: 30vw;
-    padding: 100px 0;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-main #clients2 #clients .client {
-    flex: 33%;
-    height: auto;
-    padding: 10px;
-    box-sizing: border-box;
-    flex-grow: 0;
-    flex-shrink: 0;
-    display: none;
-}
-main #clients2 #clients .show {
-    display: block;
-}
-main #clients2 #clients .client .wrap {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-main #clients2 #clients .client .wrap img {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-}
-main #clients2 #clients .client .wrap .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-    color: #FFF;
-    opacity: 0;
-    transition: 0.8s;
-    box-sizing: border-box;
-    text-align: center;
-    overflow: hidden;
-    font-size: 0%;
-    padding: 50%;
-}
-main #clients2 #clients .client:hover .overlay {
-    opacity: 0.9;
-    font-size: 100%;
-    padding: 60px;
-}
-main #clients3 {
-    display: none;
-    background-image: linear-gradient(to right, #000, #333);
-}
-main #clients3 .title {
-    text-align: center;
-    color: #FFF;
-    text-shadow: 2px 2px #000;
-    padding: 50px 0 0 0;
-}
-main #clients3 .filter {
-    text-align: left;
-    color: #FFF;
-    padding: 50px;
-}
-main #clients3 section {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: nowrap;
-    max-height: 30vh;
-}
-main #clients3 section article {
-    height: 100%;
-    flex: 25%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    position: relative;
-    transition: 4s;
-    transition-timing-function: linear;
-    border: 1px solid #000;
-    box-sizing: border-box;
-}
-main #clients3 section article img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-main #clients3 section article .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0;
-    color: #FFF;
-    padding: 50px;
-    box-sizing: border-box;
-    transition: 1s;
-    text-align: center;
-}
-main #clients3 section article:hover .overlay {
-    opacity: 0.95;
-}
-main #clients4 {
-    display: none;
-    min-height: 100vh;
-    background-image: linear-gradient(#000, #333);
-}
-main #clients4 .title {
-    color: #FFF;
-    text-align: center;
-    padding: 50px;
-}
-main #clients4 #toggle {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: right;
-    color: #FFF;
-}
-main #clients4 #toggle label {
-    padding-right: 10px;
-}
-main #clients4 #clients {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-main #clients4 #clients .client {
-    flex: 25%;
-    height: 40vh;
-    flex-grow: 0;
-    flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    display: none;
-}
-main #clients4 #clients .show {
-    display: block;
-}
-main #clients4 #clients .client img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: relative;
-}
-main #clients4 #clients .client .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 30vh;
-    left: 0;
-    background-color: #000;
-    color: #FFF;
-    opacity: 0.9;
-    transition: 1s;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-main #clients4 #clients .client:hover .overlay {
-    top: 0;
-}
-main #clients4 #clients .client .overlay h2 {
-    margin: 0;
-    line-height: 10vh;
-    vertical-align: middle;
-    height: 10vh;
 }

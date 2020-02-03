@@ -13,7 +13,7 @@
     <meta name="author" content="CM Freelancing">
     <meta name="description" content="Richcon: Producer, Director, Actor.">
     <meta name="keywords" content="produce, producer, direct, director, tv, television, film, act, actor">
-    <title>Home</title>
+    <title>Richcon</title>
     <link rel="icon" href="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/cropped-RichCon-icon-32x32.png"
         sizes="32x32">
     <script src="https://kit.fontawesome.com/5633037ef4.js"></script>
@@ -21,25 +21,6 @@
 </head>
 
 <body>
-
-
-    <header id="top">
-        <?php
-    wp_nav_menu(array(
-        "menu" => "Top Menu",
-        "container" => "nav",
-        "container_class" => "top-menu",
-        "theme_location" => "top-menu",
-        "items_wrap" => '<img src="https://cmfreelancing.co.za/client_sites/richcon/wp-content/uploads/2019/08/RichCon-logo.png" alt="logo">
-        <ul id="%1$s" class="%2$s">%3$s</ul>'));
-    wp_nav_menu(array(
-        "menu" => "Top Center Menu",
-        "container" => "nav",
-        "container_class" => "top-center-menu",
-        "theme_location" => "top-center-menu",
-        "items_wrap" => '<ul id="%1$s" class="%2$s">%3$s<img src="https://cmfreelancing.co.za/client_sites/richcon/wp-content/uploads/2019/08/Cropped-RichCon-logo-white.png" alt="logo"></ul>'));
-?>
-    </header>
     <header id="side">
         <?php
     wp_nav_menu(array(
@@ -51,22 +32,9 @@
         <hr></hr>
         <ul id="%1$s" class="%2$s">%3$s</ul>
         <div class="social-icons">
-        <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="http://www.linkedin.co.za"><i class="fab fa-linkedin"></i></a>
         <a href="http://www.instagram.co.za"><i class="fab fa-instagram"></i></a>
         <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></div>',));
-    wp_nav_menu(array(
-        "menu" => "Small Side Menu",
-        "container" => "nav",
-        "container_class" => "small-side-menu",
-        "theme_location" => "small-side-menu",
-        "items_wrap" => '<img src="https://cmfreelancing.co.za/client_sites/richcon/wp-content/uploads/2019/08/Cropped-RichCon-logo-white.png" alt="logo">
-        <div class="nav-expander"><span></span><span></span></div>
-        <ul id="%1$s" class="%2$s">%3$s</ul>
-        <div class="social-icons">
-        <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-        <a href="http://www.instagram.co.za"><i class="fab fa-instagram"></i></a>
-        <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></div>',));
+
 ?>
     </header>
-
-    <button id="nav-position-toggler"></button>
