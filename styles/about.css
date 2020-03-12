@@ -12,19 +12,8 @@ main #about1 .title {
 }
 main #about1 #richcon {
     width: 100%;
-    clear: both;
-    overflow: auto;
-}
-main #about1 #richcon #photo {
-    float: left;
-    width: 50%;
-    padding: 0 5%;
+    padding: 5vh 10%;
     box-sizing: border-box;
-    object-fit: contain;
-}
-main #about1 #richcon #photo img {
-    width: 100%;
-    border: 1px solid #FFF;
 }
 main #about1 #henck {
     clear: left;

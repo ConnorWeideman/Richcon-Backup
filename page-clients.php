@@ -18,7 +18,6 @@
                 <li>Medal Paint (2018-2020)</li>
                 <li>Duram Paint (2019)</li>
                 <li>Eureka Nails (2018)</li>
-                <li>Facebook (2014-2020)</li>
                 <li>Reliance Auctions (2019-2020)</li>
                 <li>Pam Golding (2018-2019)</li>
                 <li>RealNET (2017)</li>

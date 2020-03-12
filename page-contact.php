@@ -5,16 +5,8 @@
         <h1 class="title">CONTACT</h1>
         <section id="contacts">
             <div id="richcon">
-                <h2>Richcon</h2>
-                <a href="localhost" class="details">info@richcon.co.za</a>
-            </div>
-            <div id="richard">
-                <h2>Richard</h2>
-                <a href="localhost" class="details">richard@richcon.co.za</a>
-            </div>
-            <div id="henck">
-                <h2>Henck</h2>
-                <a href="localhost" class="details">henck@richcon.co.za</a>
+                <h2>Email:</h2>
+                <a href="mail:info@richcon.co.za" class="details">info@richcon.co.za</a>
             </div>
         </section>
         <section id="form">

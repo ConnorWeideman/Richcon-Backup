@@ -4,9 +4,6 @@
     <section id="about1">
         <h1 class="title">ABOUT</h1>
         <section id="richcon">
-            <div id="photo">
-                <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/08/Henck-Richard-Pose1.jpg" alt="Richcon">
-            </div>
             <h2>Richcon</h2>
             <p>RichCon is a production company founded in 2015 by Henck Conrey and Richard Opperman. Our mission is to
                 create innovative content in a variety of genres, focusing on delivering international programing
